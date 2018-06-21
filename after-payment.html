@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>after-payments</title>
+    <!--meta tags-->
+    <meta name="content-type" content="text/html charset=utf-8" />
+    <meta http-equiv="content-type" content="text/html charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="description about project meta tag"/>
+    <meta name="keywords" content="keyword part about my project,testing keyword"/>
+    <meta name="distribution" content="global"/>
+    <meta name="content-language" content="en"/>
+    <meta name="language" content="en"/>
+    <meta name="generator" content="JetBrains WebStorm 2016.3.4" />
+    <meta name="keywords" content="home section"/>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+    <link type="text/css" href="css/style.css" rel="stylesheet"/>
+    <link type="text/css" href="css/responsive.css" rel="stylesheet"/>
+    <!--select2-->
+    <link type="text/css" href="select2/css/select2.min.css" rel="stylesheet"/>
+</head>
+    <body>
+        <div class="row after-payment-cover">
+            <div class="col s12 center-align">
+                <img src="img/check-icon.svg" alt="after-payment-icon" class="check_ic">
+                <p class="success-py-msg">Ödəməniz uğurla həyata keçirildi.</p>
+                <p class="sc-date"><span>14.11.2017</span> - <span>11:47.33.00</span></p>
+            </div>
+            <div class="col s12 after-p-cnt">
+                <div class="row after-head">
+                    <div class="col s6 pr-zero">
+                        <p class="head-txt">Amadeus</p>
+                    </div>
+                    <div class="col s6 head-r-txt pr-zero">
+                        <label>Ümumi məbləğ</label>
+                        <span>21. <sup>00</sup> <span>AZN</span></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m3 s6 after-item">
+                        <label>Tarix</label> <br>
+                        <span>14 SENTYABR</span>
+                    </div>
+                    <div class="col m3 s6 after-item">
+                        <label>Saat</label> <br>
+                        <span>19:00</span>
+                    </div>
+                    <div class="col m3 s6 after-item">
+                        <label>Məkan</label> <br>
+                        <span>Flame Tower</span>
+                    </div>
+                    <div class="col m3 s6 after-item">
+                        <label>Yerlər</label> <br>
+                        <span>Sıra, <span>6</span> Yer- <span>7,8,9</span></span>
+                    </div>
+                </div>
+                </div>
+            <div class="row bonuses">
+                <div class="col m5 s12 pr-zero">
+                    <p class="get-bonus">Qazanılan Bonuslar &nbsp; <span>2100</span></p>
+                </div>
+                <div class="col m7 s12 pr-zero">
+                    <a href="#print-modal" class="btn after-foot-btn">Çap et</a>
+                    <a href="#send-modal" class="btn after-foot-btn">Mailə göndər</a>
+                </div>
+                <div class="col s12 do-btn center-align">
+                    <a href="javascript:void(0)" class="btn do-pay-btn">Əvvələ qayıt</a>
+                </div>
+            </div>
+
+            
+            <!-- send mail -->
+            <div id="send-modal" class="modal send-print-modal">
+                <div class="col s12 right-align close_after_modal">
+                    <a href="javascript:void(0)"><i class="mdi mdi-close red-text "></i></a>
+                </div>
+                <div class="col s12 after-p-cnt">
+                    <div class="row after-head">
+                        <div class="col s6 pr-zero">
+                            <p class="head-txt">Amadeus</p>
+                        </div>
+                        <div class="col s6 head-r-txt pr-zero">
+                            <label>Ümumi məbləğ</label>
+                            <span>21. <sup>00</sup> <span>AZN</span></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col m3 s6 after-item">
+                            <label>Tarix</label> <br>
+                            <span>14 SENTYABR</span>
+                        </div>
+                        <div class="col m3 s6 after-item">
+                            <label>Saat</label> <br>
+                            <span>19:00</span>
+                        </div>
+                        <div class="col m3 s6 after-item">
+                            <label>Məkan</label> <br>
+                            <span>Flame Tower</span>
+                        </div>
+                        <div class="col m3 s6 after-item">
+                            <label>Yerlər</label> <br>
+                            <span>Sıra, <span>6</span> Yer- <span>7,8,9</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 form-details center-align">
+                    <input type="email"  placeholder="Email">
+                </div>
+                <div class="col s12 do-btn center-align">
+                    <a href="javascript:void(0)" class="btn do-pay-btn">Send mail</a>
+                </div>
+            </div>
+            <!-- print -->
+            <div id="print-modal" class="modal send-print-modal">
+                <div class="col s12 right-align close_after_modal">
+                    <a href="javascript:void(0)"><i class="mdi mdi-close red-text "></i></a>
+                </div>
+                <div class="col s12 after-p-cnt">
+                    <div class="row after-head">
+                        <div class="col s6 pr-zero">
+                            <p class="head-txt">Amadeus</p>
+                        </div>
+                        <div class="col s6 head-r-txt pr-zero">
+                            <label>Ümumi məbləğ</label>
+                            <span>21. <sup>00</sup> <span>AZN</span></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col m3 s6 after-item">
+                            <label>Tarix</label> <br>
+                            <span>14 SENTYABR</span>
+                        </div>
+                        <div class="col m3 s6 after-item">
+                            <label>Saat</label> <br>
+                            <span>19:00</span>
+                        </div>
+                        <div class="col m3 s6 after-item">
+                            <label>Məkan</label> <br>
+                            <span>Flame Tower</span>
+                        </div>
+                        <div class="col m3 s6 after-item">
+                            <label>Yerlər</label> <br>
+                            <span>Sıra, <span>6</span> Yer- <span>7,8,9</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 do-btn center-align">
+                    <a href="javascript:void(0)" class="btn do-pay-btn">Çap et</a>
+                </div>
+            </div>
+        </div>
+    <!--jquery files-->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!--material design js-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+        <script>
+            $('.send-print-modal').modal();
+            $(document).on('click','.close_after_modal a',function () {
+                $('.send-print-modal').modal('close');
+            })
+
+        </script>
+    </body>
+</html>

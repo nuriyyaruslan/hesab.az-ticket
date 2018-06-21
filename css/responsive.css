@@ -1,0 +1,211 @@
+@media screen and (max-width:479px){
+    /*new added*/
+    .paying-cover{
+        border-radius: 0;
+    }
+    .movie-shadow{
+        display: none;
+    }
+    /*new added*/
+
+    .select-item-ticket .select2{
+        width:80px !important;
+    }
+    .mobile-select{
+        margin-top:0 !important;
+    }
+    .place-select .select2{
+        width:100% !important;
+    }
+    .modal_foot{
+        padding-bottom:192px;
+        text-align: center;
+    }
+    .choose-place-btn,.choose-place-btn:hover,.choose-place-btn:focus,.choose-place-btn:active{
+        width:100%;
+        border-radius: 4px;
+        margin-top:16px;
+        height: 48px;
+        padding-top:6px;
+        font-size: 18px;
+    }
+    .back-btn,.back-btn:hover,.back-btn:active,.back-btn:focus{
+        width:100%;
+        border-radius: 4px;
+        margin-top:16px;
+        height: 48px;
+        padding-top:6px;
+    }
+    .back-btn>span{
+        font-size:18px;
+    }
+    .details-right{
+        padding-left:2px !important;
+    }
+    .py-form{
+        padding-left:4px !important;
+        padding-right:4px !important;
+    }
+    .pay-details-list>li{
+        margin-bottom:20px;
+    }
+    .pay-form{
+        padding-left:0;
+        padding-right:10px;
+    }
+    .add-card-info{
+        text-align: left;
+        padding-left:10px;
+    }
+    .trailer{
+        width:92%;
+        border-radius: 10px;
+    }
+    .see-all-movies>a{
+        padding-right:16px;
+    }
+    .movie-name{
+        padding-left:16px;
+    }
+    .movie-box{
+        margin-left:4px;
+        margin-right:4px;
+    }
+    .ticket-title{
+        padding-left:14px;
+        padding-top:10px;
+    }
+    .mobile-date-text>p{
+        font-family: SourceSansProBold;
+        color: rgba(102, 102, 102, 0.87);
+        margin-top:28px;
+    }
+    .mobile-date-text{
+        padding:0 !important;
+    }
+    .movie-details{
+        padding:16px;
+    }
+    .select-date>input{
+        width:94% !important;
+    }
+    .date-chevron-down{
+        left:-8px;
+    }
+    .select_text{
+        margin-top:-24px;
+    }
+    .mobile-select{
+        margin-top:-6px;
+    }
+    .choose-movie-time>.row{
+        padding-left:16px;
+        padding-right:6px;
+    }
+    .choose-movie-time{
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .playpause>.mdi-play{
+        font-size:28px;
+        width:50px;
+        height:43px;
+        padding-left:10px;
+    }
+    .list-mov>li{
+        display: block;
+    }
+    .single-img-bg{
+        min-height:500px;
+        /*new added*/
+        /*margin-top:-72px;*/
+        /*new added*/
+    }
+
+    .movie-single-img,.movie-all-details{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .all-info-movie{
+        box-shadow: none;
+        border-radius: 0;
+        margin-top:0;
+        margin-bottom:0;
+    }
+    .see-all-movies-btn{
+        margin-top:40px;
+    }
+    .mobile-movie-details{
+        padding: 0;
+    }
+    .modal-foot{
+        margin-top:24px !important;
+    }
+    #modal1 , #modal2 ,#modal3{
+        width:92% !important;
+        top:16px !important;
+    }
+    .modal .modal-content,.modal-foot>.container{
+        padding:0;
+    }
+    .sum-cost{
+        font-size:26px;
+        padding-right:0;
+    }
+    .hall-content{
+        overflow: auto;
+    }
+    .hall-display{
+        max-height:320px;
+    }
+    .payment-type-left{
+        padding-right:20px !important;
+    }
+    .content-payment-type{
+        padding-top:24px;
+        padding-bottom:0;
+    }
+    .do-pay-btn{
+        width:96%;
+        margin-left:8px;
+        border-radius: 4px;
+        height:48px;
+        font-size:18px;
+        padding-top:4px;
+    }
+}
+
+@media screen and (min-width:479px) and (max-width:768px){
+    .pay-form{
+        padding-left:32px;
+        padding-right:32px;
+    }
+    .date-chevron-down{
+        right:0;
+    }
+    .movie-details{
+        margin:16px;
+    }
+    .list-mov>li{
+        margin-right:24px;
+    }
+    .list-mov{
+        max-width:64%;
+    }
+    .middle{
+        width:8px;
+    }
+    .hidden{
+        width:9px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .pay-form{
+        padding-left:22px;
+        padding-right:22px;
+    }
+    .list-mov{
+        max-width:56%;
+    }
+
+}

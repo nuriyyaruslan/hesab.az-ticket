@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sifarisleri testiqleyin</title>
+        <!--meta tags-->
+        <meta name="content-type" content="text/html charset=utf-8" />
+        <meta http-equiv="content-type" content="text/html charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="description about project meta tag"/>
+        <meta name="keywords" content="keyword part about my project,testing keyword"/>
+        <meta name="distribution" content="global"/>
+        <meta name="content-language" content="en"/>
+        <meta name="language" content="en"/>
+        <meta name="generator" content="JetBrains WebStorm 2016.3.4" />
+        <meta name="keywords" content="home section"/>
+        <!--google font links-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en" />
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+        <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+        <link type="text/css" href="css/style.css" rel="stylesheet"/>
+        <link type="text/css" href="css/responsive.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="row paying-cover">
+            <div class="col xl12 l12 m12 s12 pay_head">
+                <p class="pay-header-text">Sifarişlərinizi təstiqləyin</p>
+            </div>
+            <div class="col xl12 l12 m12 s12 pay-details">
+                <p class="pay-movie-name">Amadeus</p>
+                <div class="row">
+                    <div class="col xl10 l10 m10 s12 details-left">
+                        <ul class="pay-details-list">
+                            <li>
+                                <label>Tarix</label> <br>
+                                <span>14 SENTYABR</span>
+                            </li>
+                            <li>
+                                <label>Saat</label> <br>
+                                <span>19:00</span>
+                            </li>
+                            <li>
+                                <label>Məkan</label> <br>
+                                <span>Flame Tower</span>
+                            </li>
+                            <li>
+                                <label>Zal</label> <br>
+                                <span>Zal1</span>
+                            </li>
+                            <li>
+                                <label>Biletlər</label> <br>
+                                <span>Böyüklər: <span>3</span></span>
+                            </li>
+                            <li>
+                                <label>Yerlər</label> <br>
+                                <span>Sıra, <span>6</span> Yer- <span>7,8,9</span></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col xl2 l2 m2 s12 details-right">
+                        <label>Ümumi məbləğ</label> <br>
+                        <span>21. <sup>00</sup> <span>AZN</span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col xl4 offset-xl4 l4 offset-l4 m6 offset-m3 s12 py-form">
+                <p class="add-card-info">Zəhmət olmasa kart məlumatlarınızı daxil edin.</p>
+                <form action="" class="pay-form">
+                   <div class="row">
+                       <div class="col xl12 l12 m12 s12">
+                           <div class="card_number">
+                               <label class="card_number_lbl">Kartın nömrəsi
+                                   <a href="#" class="mdi mdi-help-circle help-circle"></a>
+                               </label>
+                               <div class="input-field">
+                                   <input  type="text" class="card-number-input">
+                               </div>
+                           </div>
+                       </div>
+                      <div class="col xl6 l6 m6 s12">
+                          <div class="past_date">
+                              <label class="past_date_lbl">Kartın bitmə tarixi</label>
+                              <div class="input-field">
+                                  <input id="card-date"  type="text" class="past-date-input">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col xl6 l6 m6 s12">
+                          <div class="cvc_number">
+                              <label class="cvc_number_lbl">CVC nömrə <a href="#" class="mdi mdi-help-circle help-circle"></a></label>
+                              <div class="input-field">
+                                  <input  type="text" class="cvc-input">
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                    <p class="center-align do-btn">
+                        <a href="javascript:void(0)" class="btn do-pay-btn">Ödəniş et</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <!--jquery files-->
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <!--material design js-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/formatter.js"></script>
+        <!--own js file-->
+        <script>
+            $('#card-date').formatter({
+                'pattern': ' {{99}}/{{99}}',
+                'persistent': true
+            });
+        </script>
+    </body>
+</html>
